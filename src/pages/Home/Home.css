@@ -1,0 +1,18 @@
+.products-section {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.products-section__load {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.products-list {
+  display: grid;
+  row-gap: 30px;
+  column-gap: 45px;
+  margin-bottom: 130px;
+  grid-template-columns: repeat(4, 1fr);
+}
